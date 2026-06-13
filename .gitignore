@@ -1,0 +1,63 @@
+# ==========================================
+# 1. Operating System Junk
+# ==========================================
+# Prevents desktop service files from polluting your commits.
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+
+# ==========================================
+# 2. Code Editors & IDEs
+# ==========================================
+# Keeps personal workspace preferences out of the shared repo.
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.swp
+*~
+
+# ==========================================
+# 3. Dynamic Caches & Diagnostic Logs
+# ==========================================
+# Stops runtime logs and file-monitoring caches from being tracked.
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+.stylelintcache
+.sass-cache
+.cache/
+.parcel-cache
+.turbo/
+
+# ==========================================
+# 4. Local Environment Configurations
+# ==========================================
+# Prevents committing local credentials by accident.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# ==========================================
+# 5. Package Manager & System Backups
+# ==========================================
+node_modules/
+jspm_packages/
+.pnpm-store/
+.bloop/
+.metals/
